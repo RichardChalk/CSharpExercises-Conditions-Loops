@@ -397,7 +397,7 @@ namespace Övningsuppgifter2
 
             for (int rader = 1; rader <= 6; rader++)
             {
-                for (int stars = 5; stars >= rader; stars--)
+                for (int stars = 6; stars >= rader; stars--)
                 {
                     Console.Write("*");
                 }
